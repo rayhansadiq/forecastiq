@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+.pytest_cache/
 backend/data/raw/
 backend/data/processed/
 *.zip
