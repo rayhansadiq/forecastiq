@@ -1,0 +1,154 @@
+{
+  "model_type": "hgb",
+  "feature_columns": [
+    "DayOfWeek",
+    "Month",
+    "Year",
+    "DayOfMonth",
+    "WeekOfYear",
+    "Promo",
+    "SchoolHoliday",
+    "StateHolidayCode",
+    "Promo2Active",
+    "StoreTypeCode",
+    "AssortmentCode",
+    "CompetitionDistance",
+    "CompetitionOpenMonths",
+    "HasCompetitionInfo",
+    "SalesLag14",
+    "SalesLag21",
+    "SalesLag28",
+    "SalesRollMean7",
+    "SalesRollMean14",
+    "SalesRollMean28",
+    "SalesRollStd7",
+    "SalesRollStd14",
+    "SalesRollStd28"
+  ],
+  "forecast_horizon_days": 14,
+  "trained_at": "2026-08-12T14:52:54.577646+00:00",
+  "train_start_date": "2013-02-11",
+  "train_end_date": "2015-06-19",
+  "test_start_date": "2015-06-20",
+  "test_end_date": "2015-07-31",
+  "last_observed_date": "2015-07-31",
+  "n_train_rows": 766284,
+  "n_test_rows": 40282,
+  "sklearn_version": "1.5.2",
+  "metrics": {
+    "mae": 621.9514784703643,
+    "rmse": 902.6410617217642,
+    "rmspe": 0.12864543959595054,
+    "mean_actual_sales": 6978.638051735266,
+    "mae_as_pct_of_mean": 8.9122185999561
+  },
+  "baseline_metrics": {
+    "mae": 1000.5645366830513,
+    "rmse": 1377.2583985810957,
+    "rmspe": 0.195392801758661,
+    "mean_actual_sales": 6978.638051735266,
+    "mae_as_pct_of_mean": 14.337533043919034
+  },
+  "feature_importance": [
+    {
+      "feature": "Promo",
+      "importance": 550.3925993396805,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesLag14",
+      "importance": 449.4666923488903,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesLag28",
+      "importance": 224.17476268997873,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollMean28",
+      "importance": 219.6014042042261,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesLag21",
+      "importance": 164.2808014556947,
+      "method": "permutation"
+    },
+    {
+      "feature": "DayOfMonth",
+      "importance": 140.27937447021398,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollMean14",
+      "importance": 121.99892756221372,
+      "method": "permutation"
+    },
+    {
+      "feature": "DayOfWeek",
+      "importance": 76.30333923111137,
+      "method": "permutation"
+    },
+    {
+      "feature": "SchoolHoliday",
+      "importance": 26.185602064081422,
+      "method": "permutation"
+    },
+    {
+      "feature": "WeekOfYear",
+      "importance": 19.972767481307795,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollStd28",
+      "importance": 13.070746505425936,
+      "method": "permutation"
+    },
+    {
+      "feature": "Month",
+      "importance": 10.45410290583061,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollStd14",
+      "importance": 9.497011848317621,
+      "method": "permutation"
+    },
+    {
+      "feature": "Promo2Active",
+      "importance": 8.432490369908086,
+      "method": "permutation"
+    },
+    {
+      "feature": "CompetitionDistance",
+      "importance": 7.915933640110514,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollMean7",
+      "importance": 4.2775931482827145,
+      "method": "permutation"
+    },
+    {
+      "feature": "StoreTypeCode",
+      "importance": 4.053270688360574,
+      "method": "permutation"
+    },
+    {
+      "feature": "AssortmentCode",
+      "importance": 2.314645899347814,
+      "method": "permutation"
+    },
+    {
+      "feature": "CompetitionOpenMonths",
+      "importance": 0.7079186551489253,
+      "method": "permutation"
+    },
+    {
+      "feature": "SalesRollStd7",
+      "importance": 0.18967038042698428,
+      "method": "permutation"
+    }
+  ]
+}
